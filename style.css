@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* start sec 1 */
+.section {
+    background-color: #00005C;
+    height: 100vh;
+    position: relative;
+}
+.container .section1{
+    width: 1200px;
+    height: 700px;
+    background-image: url(WhatsApp\ Image\ 2022-12-09\ at\ 6.43.10\ AM.jpeg);
+    background-size: cover;
+    border-radius: 40px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -600px;
+    margin-top: -350px;
+}
+.container .section1 .form{
+    position: absolute;
+    top:0;
+    left:0;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: rgba(1, 8, 73, 0.716);
+    backdrop-filter: blur(50.5px);
+    width: 60%;
+    height: 100%;
+}
+.container .section1 .form  .logo{
+    display: flex;
+    padding: 80px 110px 20px;
+    text-align: center;
+}
+.container .section1 .form .logo img{
+    padding-right: 20px;
+}
+.container .section1 .form .input {
+    width: 500px;
+    margin: 10px 110px;
+    
+}
+.container .section1 .form .input .width,
+.container .section1 .form .input .width1 {
+    width: 500px;
+}
+.container .section1 .form .input button{
+    padding: 9px;
+    margin-top: 10px;
+}
+
+.container .section1 .form .input .width1{
+    color: #00005C;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #01A3F1;
+    border: 2px solid #01A3F1;
+    box-shadow: 0px 0px 20px rgba(1, 163, 241, 0.65);
+}
+.container .section1 .form .input .marg {
+    margin-right:20px ;
+    padding-right:43px ;
+}
+.container .section1 .form .input .marg1 {
+    padding-right: 43px;
+}
+.container .section1 .form .input input {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #022160;
+    border: 2px solid #022160;
+    color: white;
+
+}
+#male{
+    margin-left: 140px;
+}
+#female{
+    margin-left: 175px;
+}
+.btn:focus,
+input:focus {
+    outline: none;
+}
+/* end sec 1 */
+
+
+/* start index2.html */
+.section2{
+    background-color: #00005C;
+    height: 100vh;
+    position: relative;
+    display: none;
+}
+.active {
+    display: block;
+}
+.section2 #icon{
+    padding:20px ;
+}
+.section2 .inner  {
+    width: 1200px;
+    height: 700px;
+    background-image: url(WhatsApp\ Image\ 2022-12-09\ at\ 6.43.10\ AM.jpeg);
+    background-size: cover;
+    border-radius: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -600px;
+    margin-top: -350px;
+    text-align: center;
+}
+.section2 .inner .table{
+    background-color: rgba(1, 8, 73, 0.556);
+        backdrop-filter: blur(15px);
+}
+.section2 .inner .table thead tr .n1 {
+    border-top-left-radius: 40px;
+}
+
+.section2 .inner .table thead tr .n2 {
+    border-top-right-radius: 40px;
+}
+.section2 .inner .table thead tr th {
+    background-color: #01A3F1;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-bottom: none;
+}
+.section2 .inner .table  tr td {
+    padding: 20px 4px;
+    border-bottom: none;
+    color: white;
+}
+.section2 .inner .table  tr:nth-of-type(even) {
+    background-color: #022160d2;
+}
+/* end index2.html */
